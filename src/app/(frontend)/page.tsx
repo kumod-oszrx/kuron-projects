@@ -29,6 +29,12 @@ export default async function HomePage() {
             width={65}
           />
         </picture>
+        <h1>Kuron Project – A Centralized CMS & Data Hub</h1>
+        <p>
+          Kuron is a centralized CMS that helps you manage content, source code, and data in one
+          platform.
+        </p>
+
         {!user && <h1>Welcome to your new project.</h1>}
         {user && <h1>Welcome back, {user.email}</h1>}
         <div className="links">
