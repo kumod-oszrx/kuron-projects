@@ -40,7 +40,7 @@ next-env.d.ts
 
 .env
 # example env file
-# .env.example
+.env.example
 
 /media
 
