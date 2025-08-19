@@ -1,0 +1,23 @@
+*{
+  
+}
+.rounded-lg {
+  border-radius: 0.5rem; /* 8px */
+}
+.size-6 {
+  width: 24px; /* 24px */
+  height: 24px; /* 24px */
+}
+.\!size-6 {
+  width: 24px !important; /* 24px */
+  height: 24px !important; /* 24px */
+}
+
+.app-header__account[aria-label="Account"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px; /* 24px */
+  width: 24px !important; /* 24px */
+  height: 24px !important; /* 24px */
+}
