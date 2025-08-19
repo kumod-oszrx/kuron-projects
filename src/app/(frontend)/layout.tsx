@@ -12,7 +12,7 @@ import {
 } from '@/fonts'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://your-domain.com'),
+  metadataBase: new URL('https://kuron-projects.vercel.app'),
   title: {
     default: 'Kuron Project – Centralized CMS & Data Hub',
     template: '%s | Kuron Project', // "%s" = dynamic title page
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     title: 'Kuron Project – Centralized CMS & Data Hub',
     description:
       'Manage all website content, source code, and data in one powerful CMS. Kuron Project connects systems via REST API for seamless integration.',
-    url: 'https://your-domain.com',
+    url: 'https://kuron-projects.vercel.app',
     siteName: 'Kuron Project',
     images: [
       {
@@ -107,10 +107,10 @@ export const metadata: Metadata = {
   },
   category: 'technology',
   alternates: {
-    canonical: 'https://your-domain.com',
+    canonical: 'https://kuron-projects.vercel.app',
     languages: {
-      'en-US': 'https://your-domain.com',
-      'vi-VN': 'https://your-domain.com',
+      'en-US': 'https://kuron-projects.vercel.app',
+      'vi-VN': 'https://kuron-projects.vercel.app',
     },
   },
   applicationName: 'Kuron Project',
@@ -126,8 +126,8 @@ const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Kuron Project',
-    url: 'https://your-domain.com',
-    logo: 'https://your-domain.com/android-icon-192x192.png',
+    url: 'https://kuron-projects.vercel.app',
+    logo: 'https://kuron-projects.vercel.app/android-icon-192x192.png',
   }),
 }
 
