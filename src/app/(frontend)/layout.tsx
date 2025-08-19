@@ -51,6 +51,7 @@ export const metadata: Metadata = {
     'Kuron',
     'Kuron CMS',
     'Kuron Data Hub',
+    'Kuron Project – Centralized CMS & Data Hub',
   ],
   icons: [
     {
@@ -83,7 +84,7 @@ export const metadata: Metadata = {
     siteName: 'Kuron Project',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Kuron Project CMS',
@@ -98,7 +99,7 @@ export const metadata: Metadata = {
     title: 'Kuron Project – Centralized CMS & Data Hub',
     description:
       'A powerful CMS and data hub for managing website content and integrating with REST API.',
-    images: ['/twitter-card.jpg'],
+    images: ['/twitter-card.png'],
     creator: '@kuronproject',
   },
   robots: {
@@ -155,6 +156,9 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/manifest.json" />
+        <meta property="og:image" content="/og-image.png" />
+        <meta name="twitter:image" content="/twitter-card.png" />
+        <meta name="facebook:image" content="/facebook-card.png" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
